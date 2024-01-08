@@ -1,0 +1,29 @@
+<html>
+	<head>
+	<style>
+	.flex-container {
+	display: inline-flex;
+	justify-content: flex-end;
+	flex-direction: column;
+	background-color: #151c61;
+	}
+
+	.flex-container > div {
+	background-color: #ffffff;
+	text-align: right;
+	margin: 10px;
+	padding: 50px;
+	font-size: 50px;
+	width: 100px;
+	}
+	</style>
+	</head>
+	<body>
+	<h1>Ejercio 1 - en forma de columna.</h1>
+	<div class="flex-container">
+	<div>1</div>
+  	<div>2</div>
+	<div>3</div>  
+	</div>
+	</body>
+</html>
